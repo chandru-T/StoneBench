@@ -1,0 +1,14 @@
+.footer-position{
+    display: flex; 
+    justify-content: center; 
+    width: 100%; position: 
+    fixed; text-align: 
+    center; bottom: 0vh;
+    background-color: #007bff;
+    text-align:center;
+    align-items: center;
+}
+
+#footer-copy-right, #footer-terms{
+    display: inline-block;
+}
