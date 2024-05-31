@@ -1,2 +1,4 @@
-<!-- header.component.html -->
-<p-menubar [model]="items" [style]="{'width':'100%'}" [autoDisplay]="false"></p-menubar>
+<p-tabMenu 
+    [model]="items" 
+    [activeItem]="activeItem" 
+    (activeItemChange)="onActiveItemChange($event)" />
