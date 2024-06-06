@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { AppLayoutModule } from './app.layout.module';
 import { BrowserModule } from '@angular/platform-browser';
 
-
 @NgModule({
   declarations: [AppComponent],
   imports: [
