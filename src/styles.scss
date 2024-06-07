@@ -2,53 +2,43 @@
 @import "primeng/resources/primeng.css";
 @import "assets/layout/styles/layout/layout.scss"; 
 
+/* home.component.css */
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 1rem; /* space between columns */
-}
-
-.col {
-    background: #fff; /* Background for the column */
-    padding: 1rem; /* Padding for content */
-    border: 1px solid #ddd; /* Optional: Border for better visualization */
-}
-
-.card {
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.flex {
+.home-container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background: url('assets/layout/images/savings-bg.jpg') no-repeat center center fixed;
+    //background-size: 100px 100px; /* Smaller logo */
+    width: 100%;
+    background-size: cover;
     display: flex;
-}
-
-.justify-content-between {
-    justify-content: space-between;
-}
-
-.mb-3 {
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+    font-family: Arial, sans-serif;
+    border-radius: inherit;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
     margin-bottom: 1rem;
-}
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
 
-.text-500 {
-    color: #6c757d;
-}
-
-.font-medium {
-    font-weight: 500;
-}
-
-.text-900 {
-    color: #212529;
-}
-
-.text-xl {
-    font-size: 1.25rem;
-}
-
-.text-green-500 {
-    color: #28a745;
-}
+  .elementor-heading-title{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.67em;
+    letter-spacing: 0.1px;
+  }
